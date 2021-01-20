@@ -1,0 +1,19 @@
+function f2(a,b){
+    d = a + 2*b - 9;
+    return d;
+}
+
+function f1(a,b){
+    d = 9+1;
+    f = a*b + d;
+    return f;
+}
+
+a = 10;
+b = 0;
+k = 0;
+while (a > 0) {
+    a = a - (1+1);
+    b = b + f1(1,2);
+    k = k + f2(1,2);
+}
